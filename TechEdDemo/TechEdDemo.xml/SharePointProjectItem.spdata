@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.OfficeApp" DefaultFile="TechEdDemo.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="AppPackage" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="TechEdDemo.xml" Target="TechEdDemo.xml\" Type="AppPackage" />
+  </Files>
+  <ExtensionData>
+    <ExtensionDataItem Key="OfficeAppManifestRelativePath" Value="TechEdDemo.xml\TechEdDemo.xml" />
+    <ExtensionDataItem Key="OfficeAppStartPageRelativePath" Value="Pages\TechEdDemo.html" />
+  </ExtensionData>
+</ProjectItem>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechEdDemo", "TechEdDemo\TechEdDemo.csproj", "{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechEdDemoWeb", "TechEdDemoWeb\TechEdDemoWeb.csproj", "{481DF382-98A2-41EA-ABF8-0B2AF59F63EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBC0C71-1585-4A3D-8ED8-42C3899D4787}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{481DF382-98A2-41EA-ABF8-0B2AF59F63EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481DF382-98A2-41EA-ABF8-0B2AF59F63EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481DF382-98A2-41EA-ABF8-0B2AF59F63EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481DF382-98A2-41EA-ABF8-0B2AF59F63EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="MailApp">
+  <Id>d6de88a8-f9ee-4bb6-b46f-327e282decc5</Id>
+  <Version>1.0</Version>
+  <ProviderName>Jake</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="TechEdDemo" />
+  <Description DefaultValue="TechEdDemo Description"/>
+  <Capabilities>
+    <Capability Name="Mailbox" />
+  </Capabilities>
+  <DesktopSettings>
+    <SourceLocation DefaultValue="~remoteAppUrl/Pages/TechEdDemo.html" />
+    <RequestedHeight>250</RequestedHeight>
+  </DesktopSettings>
+  <Permissions>ReadItem</Permissions>
+    <Rule xsi:type="RuleCollection" Mode="Or">
+      <Rule xsi:type="ItemIs" ItemType="Message"/>
+    </Rule>
+</OfficeApp>
