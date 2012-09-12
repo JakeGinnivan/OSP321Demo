@@ -20,6 +20,7 @@
     <SqlPackagePartId>{7dad14d8-dd1e-45f6-9197-d909e446f5fa}</SqlPackagePartId>
     <ProjectMode>MailApp</ProjectMode>
     <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <StoreSettings>True</StoreSettings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

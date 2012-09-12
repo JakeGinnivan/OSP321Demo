@@ -11,10 +11,11 @@
   </Capabilities>
   <DesktopSettings>
     <SourceLocation DefaultValue="~remoteAppUrl/Pages/TechEdDemo.html" />
-    <RequestedHeight>250</RequestedHeight>
+    <RequestedHeight>100</RequestedHeight>
   </DesktopSettings>
   <Permissions>ReadItem</Permissions>
-    <Rule xsi:type="RuleCollection" Mode="Or">
+    <Rule xsi:type="RuleCollection" Mode="And">
       <Rule xsi:type="ItemIs" ItemType="Message"/>
+      <Rule xsi:type="ItemHasRegularExpressionMatch" PropertyName="Subject" RegExName="TimesheetEmail" RegExValue="You have outstanding timesheet entries" />
     </Rule>
 </OfficeApp>
