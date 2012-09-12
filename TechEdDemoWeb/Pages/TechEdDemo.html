@@ -33,6 +33,9 @@
                     <td style="vertical-align: middle">
                         <button data-bind="click: $root.submit" id="submitButton">Submit</button>
                     </td>
+                    <td data-bind="visible: isSubmitting" style="vertical-align: middle">
+                        Submitting...
+                    </td>
                 </tr>
             </tbody>
         </table>
