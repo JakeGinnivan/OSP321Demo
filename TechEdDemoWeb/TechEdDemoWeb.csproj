@@ -63,6 +63,8 @@
     <Content Include="Pages\TechEdDemo.html" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\knockout-2.1.0.debug.js" />
+    <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\Office\en-us\office_strings.debug.js" />
     <Content Include="Scripts\Office\es-es\office_strings.debug.js" />
     <Content Include="Scripts\Office\excel-15.debug.js" />
